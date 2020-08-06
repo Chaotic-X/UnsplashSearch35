@@ -70,18 +70,3 @@ class PhotoController {
   } //End of FetchRegularImage
 } //End of Class
 
-//PhotoController.fetchSearchResults(for: "Clouds") { (results) in
-//  switch results {
-//    case .success(let info):
-//      //      let urlPath = info.count
-//      info.forEach {
-//        print("\(!$0.urls.regular.isEmpty ? $0.urls.regular : "Failed to Load an image")")
-//        print("\($0.user.first_name ?? "I have no First Name")")
-//        print("\($0.user.last_name ?? "I have no Last Name")")
-//        print("\($0.alt_description ?? "I have no Alt Description")")
-//        print("\($0.description ?? "I have no Description")\n")
-//    }
-//    case .failure(let error):
-//      print("Error fetching datat in \(#function) : \(error.localizedDescription) \n---\n \(error)")
-//  }
-//}
